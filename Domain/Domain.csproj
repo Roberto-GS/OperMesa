@@ -7,12 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Enums\" />
     <Folder Include="Interfaces\" />
 
     <Folder Include="DTOs\" />
-
-    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>
