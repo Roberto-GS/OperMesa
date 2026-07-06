@@ -11,8 +11,6 @@
     <Folder Include="Interfaces\" />
 
     <Folder Include="DTOs\" />
-
-    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>
