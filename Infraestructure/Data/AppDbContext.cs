@@ -494,7 +494,7 @@ public class AppDbContext : DbContext
             entidad.Property(p => p.TipoPedido)
                    .HasConversion<string>()
                    .HasMaxLength(20)
-                   .HasDefaultValue(TipoPedido.Local);
+                   .HasDefaultValue(TipoPedido.ComerAqui);
 
             // Pedidos.Estado no tiene enum propio todavía (Abierto/EnCocina/
             // Listo/Servido/Cerrado/Cancelado): se mapea como string.
